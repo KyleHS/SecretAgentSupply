@@ -1,0 +1,35 @@
+html {
+  font-size: 18px;
+}
+
+header {
+
+  background-color: black;
+  position: fixed;
+  width: 100%;
+
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 960px;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  justify-content: center;
+
+}
+
+.heading span {
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+
+.heading img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+
+}
