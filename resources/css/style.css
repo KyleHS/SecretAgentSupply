@@ -69,6 +69,7 @@ html {
   color: white;
 }
 
+/*Red Nav*/
 .navigation {
   background-color: firebrick;
 }
@@ -86,4 +87,46 @@ html {
   font-family: Helvetica;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.productcontainer {
+  width: 960px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.container {
+  display: block;
+  background-color: black;
+  width: 30%;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  padding: 2rem 0;
+  border: 4px solid black;
+  background-color: white;
+}
+
+.image img {
+  max-width: 8rem;
+}
+
+.text {
+  display: block;
+  padding: 1rem 0;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  font-family: Helvetica;
+  background-color: black;
 }
