@@ -89,6 +89,7 @@ html {
   padding-bottom: 0.75rem;
 }
 
+/*3 Images*/
 .productcontainer {
   width: 960px;
   background-color: white;
@@ -129,4 +130,68 @@ html {
   font-size: 1rem;
   font-family: Helvetica;
   background-color: black;
+}
+
+/*Location and hours*/
+.locationcontainer {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.bottom {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-between;
+}
+
+.container2 {
+  display: block;
+  width: 35%
+}
+
+.text2 {
+  display: block;
+  color: white;
+  background-color: black;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: Helvetica;
+  text-align: left;
+}
+
+.text3 {
+  display: block;
+  color: white;
+  background-color: black;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: Helvetica;
+  text-align: left;
+}
+
+p {
+  text-align: left;
+}
+
+        /*Footer*/
+.footercontainer {
+  margin-top: 4rem;
+  background-color: black;
+}
+
+.footer {
+  height: 5rem;
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+
+}
+
+.footext {
+  color: white;
+  text-align: left;
+  font-family: Helvetica;
 }
