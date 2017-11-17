@@ -1,35 +1,89 @@
 html {
   font-size: 18px;
 }
-
-header {
-
+/* Header for Page */
+.header {
   background-color: black;
-  position: fixed;
-  width: 100%;
-
+  z-index: 1;
 }
 
 .heading {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  width: 960px;
+  margin: 0 auto;
+  max-width: 960px;
   padding-top: 0.66rem;
   padding-bottom: 0.66rem;
-  justify-content: center;
-
 }
 
 .heading span {
   color: white;
   font-family: Helvetica;
   font-size: 1rem;
+  font-weight: bold;
 }
 
 .heading img {
   height: 1.5rem;
   padding-left: 0.5rem;
   padding-right: 1rem;
+}
 
+/* Background Image and Container */
+.sport {
+  background-image: url("../images/moto.jpeg");
+  height: 25rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sportcontain {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.motorsport {
+  position: relative;
+  justify-content: center;
+  top: 9rem;
+  width: 20rem;
+  background-color: black;
+  padding: 2rem 3rem;
+}
+
+.motorsport h3 {
+  display: block;
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+  color: white;
+}
+
+.motorsport h1 {
+  display: block;
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.navigation {
+  background-color: firebrick;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.nav span {
+  color: white;
+  font-weight: bold;
+  font-family: Helvetica;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
